@@ -6,6 +6,8 @@ import json
 client = pymongo.MongoClient("mongodb+srv://singh:singh9821@cluster0.7a31upb.mongodb.net/?retryWrites=true&w=majority")
 db = client.test
 
+
+#database name
 Database_name="aps"
 Collection_name="sensor"
 Data_file_path="C:/Users/prata/PycharmProjects/sensor fault detection/aps_failure_training_set1.csv"
